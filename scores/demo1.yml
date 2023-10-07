@@ -1,12 +1,16 @@
 # Batukeitor score
 name: Demo 1
 
-bpm: 100
+bpm: 110
 score:
   intro
+  ---
   base1 base1 base1 c1
-  base1 base1 base1 c2
+  base1 base1 base1 c3
+  ---
+  base2 base2 base2 c2
   base2 base2 base2 c3
+  ---
   fin
 
 sections:
@@ -49,28 +53,9 @@ sections:
       S1: "    X       X       X       X   "
 
 
-  base2:
-    name: Base 2
-    color: "#006000"
-    tracks:
-      #   "1---2---3---4---1---2---3---4---"
-      DD: "                                "
-      AP: "                                "
-      CH: "X--XX--XX--XX--XX--XX--XX--XX--X"
-      AG: "X --X --X --X - X --X --X --X - "
-      CC: "X  X  XX X  XX  X  XX X  XX  XXX"
-      CV: "                                "
-      TB: "X  X  X   X  X  X  X  X   X  X  "
-      RP: "                                "
-      CX: "X--X--X---X--X--X--X--X---X--X--"
-      S3: "X X     XX X    X X  X XXX X    "
-      S2: "X       X       X       X       "
-      S1: "    X       X       X       X   "
-
-
   c1:
     name: Corte 1
-    color: "#006e6e"
+    color: "#006000"
     tracks:
       #   "1---2---3---4---"
       DD: "                "
@@ -89,7 +74,7 @@ sections:
 
   c2:
     name: Corte 2
-    color: "#004a4a"
+    color: "#008000"
     tracks:
       #   "1---2---3---4---1---2---3---4---"
       DD: "                                "
@@ -106,9 +91,28 @@ sections:
       S1: "X                               "
 
 
+  base2:
+    name: Base 2
+    color: "#004a4a"
+    tracks:
+      #   "1---2---3---4---1---2---3---4---"
+      DD: "                                "
+      AP: "                                "
+      CH: "X--XX--XX--XX--XX--XX--XX--XX--X"
+      AG: "X --X --X --X - X --X --X --X - "
+      CC: "X  X  XX X  XX  X  XX X  XX  XXX"
+      CV: "                                "
+      TB: "X  X  X   X  X  X  X  X   X  X  "
+      RP: "                                "
+      CX: "X--X--X---X--X--X--X--X---X--X--"
+      S3: "X X     XX X    X X  X XXX X    "
+      S2: "X       X       X       X       "
+      S1: "    X       X       X       X   "
+
+
   c3:
     name: Corte 3
-    color: "#793100"
+    color: "#006e6e"
     tracks:
       #   "1---2---3---4---1---2---3---4---"
       DD: "                                "
