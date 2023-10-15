@@ -4,4 +4,4 @@ This repo is an example of the files used to define a `crew` (band/ensemble) and
 
 It can be used as a template to add a new crew to your instance of `Batukeitor` (you can have as many as you want).
 
-Please see the [Batukeitor docs](https://github.com/clvLabs/batukeitor/tree/master/resources/docs/index.md) for more info.
+Please see the [Batukeitor docs](https://github.com/clvLabs/batukeitor/tree/master/resources/docs/README.md) for more info.
